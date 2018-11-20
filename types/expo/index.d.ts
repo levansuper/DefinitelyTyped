@@ -1559,6 +1559,8 @@ export namespace ImageManipulator {
     }
 
     function manipulate(uri: string, actions: Action[], saveOptions?: SaveOptions): Promise<ImageResult>;
+
+    function manipulateAsync(uri: string, actions: Action[], saveOptions?: SaveOptions): Promise<ImageResult>;
 }
 
 /**
